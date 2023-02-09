@@ -3,7 +3,7 @@
 # Exit if path to accounts.csv file not provided as argument
 if [ $# -lt 1 ]
 then
-    echo "Usage: ./task.sh /path/to/accounts.csv"
+    echo "Usage: ./task1.sh /path/to/accounts.csv"
     exit 0
 fi
 

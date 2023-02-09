@@ -3,7 +3,7 @@
 # Exit if path to output.txt file not provided as argument
 if [ $# -lt 1 ]
 then
-    echo "Usage: ./task.sh /path/to/output.txt"
+    echo "Usage: ./task2.sh /path/to/output.txt"
     exit 0
 fi
 
