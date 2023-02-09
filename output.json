@@ -3,12 +3,12 @@
     "tests": [
         {
             "name": "expecting command finishes successfully (bash way)",
-            "status": true,
+            "status": false,
             "duration": "7ms"
         },
         {
             "name": "expecting command finishes successfully (the same as above, bats way)",
-            "status": true,
+            "status": false,
             "duration": "27ms"
         },
         {

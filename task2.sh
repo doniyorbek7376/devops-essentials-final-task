@@ -69,7 +69,7 @@ tests_started=0
             id=${BASH_REMATCH[2]}
             name=${BASH_REMATCH[3]}
             duration=${BASH_REMATCH[4]}
-            if [ status=="ok" ]
+            if [[ $status == "ok" ]]
             then
                 status=true
             else
